@@ -1,5 +1,10 @@
-export default function Menu() {
+export default function Menu({Buttons, children}) {
+    
     return (
-        <li> </ li>
+
+        <menu>
+            <buttons/>
+        </menu>
+        
     );
 }
